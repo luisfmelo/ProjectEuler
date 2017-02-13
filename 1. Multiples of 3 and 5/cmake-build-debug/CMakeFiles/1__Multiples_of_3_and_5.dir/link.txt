@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/1__Multiples_of_3_and_5.dir/main.cpp.o  -o 1__Multiples_of_3_and_5 
