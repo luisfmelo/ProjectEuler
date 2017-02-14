@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/3__Largest_prime_factor.dir/main.cpp.o  -o 3__Largest_prime_factor 
