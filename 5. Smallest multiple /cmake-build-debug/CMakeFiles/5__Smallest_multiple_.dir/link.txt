@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/5__Smallest_multiple_.dir/main.cpp.o  -o 5__Smallest_multiple_ 
