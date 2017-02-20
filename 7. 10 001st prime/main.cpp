@@ -4,21 +4,20 @@
 int is_prime(long int num);
 
 int main() {
-    int pos = 0;
+    int pos = 1;
     long int i;
 
     std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
 
-    for ( i = 2; ; i++){
+    for ( i = 3; ; i = i + 2){
         if ( is_prime(i) ) {
             pos++;
             if (pos == 10001)
                 break;
         }
-        std::cout << pos << std::endl;
     }
 
-    std::cout << "10 001st prime number is " << i << std::endl;
+    std::cout << "\n10 001st prime number is " << i << std::endl;
 
     std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
 
@@ -34,7 +33,7 @@ int is_prime(long int num){
 
     if ( num == 1 )
         return false;
-    else if ( num == 2 || num == 3 || num == 5)
+    else if ( num == 2 )
         return true;
 
     for(x = 2; x < num ; x++){
