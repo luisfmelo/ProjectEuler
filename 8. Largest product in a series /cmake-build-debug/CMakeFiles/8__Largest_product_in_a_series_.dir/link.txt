@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/8__Largest_product_in_a_series_.dir/main.cpp.o  -o 8__Largest_product_in_a_series_ 
